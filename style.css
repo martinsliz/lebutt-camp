@@ -1,0 +1,43 @@
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.list > li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.list > li:last-child {
+  margin: 0;
+}
+
+.list > li > a {
+  padding: 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: darkgreen;
+  border-radius: 6px;
+}
+
+.list > li > a:hover {
+  background-color: lightgray;
+}
+
+.list > li > a:active {
+  background-color: lightcoral;
+}
+
+#paragraph1 {
+  background-color: aliceblue;
+  color: #440fd5;
+  text-align: center;
+}
+.point {
+  color: red;
+}
+strong {
+  background-color: blue;
+}

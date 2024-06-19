@@ -1,0 +1,44 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-group > input,
+.form-group > textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+}
+
+.form-group > input[type='date'] {
+  width: auto;
+}
+
+.form-group > input:focus,
+.form-group > textarea {
+  border-color: rgb(149, 178, 203);
+  outline: none;
+  box-shadow: 1px 2px 2px rgb(149, 178, 203);
+}
+
+#sign-up-form {
+  width: 300px;
+}
+
+form input[type='submit'] {
+  background-color: blueviolet;
+  color: white;
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
